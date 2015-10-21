@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="UTF-8"?><NativeDicomModel xml:space="preserve">
+<DicomAttribute keyword="FileMetaInformationVersion" tag="00020001" vr="OB">
+<InlineBinary>AAE=</InlineBinary>
+</DicomAttribute>
+<DicomAttribute keyword="MediaStorageSOPClassUID" tag="00020002" vr="UI">
+<Value number="1">1.2.840.10008.5.1.4.1.1.1</Value>
+</DicomAttribute>
+<DicomAttribute keyword="MediaStorageSOPInstanceUID" tag="00020003" vr="UI">
+<Value number="1">1.2.40.0.13.1.1.1.10.231.161.39.20121128094010212.35980</Value>
+</DicomAttribute>
+<DicomAttribute keyword="TransferSyntaxUID" tag="00020010" vr="UI">
+<Value number="1">1.2.840.10008.1.2.4.70</Value>
+</DicomAttribute>
+<DicomAttribute keyword="ImplementationClassUID" tag="00020012" vr="UI">
+<Value number="1">1.2.40.0.13.1.1.1</Value>
+</DicomAttribute>
+<DicomAttribute keyword="ImplementationVersionName" tag="00020013" vr="SH">
+<Value number="1">dcm4che-1.4.32</Value>
+</DicomAttribute>
+<DicomAttribute keyword="SpecificCharacterSet" tag="00080005" vr="CS">
+<Value number="1">ISO_IR 100</Value>
+</DicomAttribute>
+<DicomAttribute keyword="ImageType" tag="00080008" vr="CS">
+<Value number="1">DERIVED</Value>
+<Value number="2">PRIMARY</Value>
+</DicomAttribute>
+<DicomAttribute keyword="InstanceCreationDate" tag="00080012" vr="DA">
+<Value number="1">20011006</Value>
+</DicomAttribute>
+<DicomAttribute keyword="InstanceCreationTime" tag="00080013" vr="TM">
+<Value number="1">152403</Value>
+</DicomAttribute>
+<DicomAttribute keyword="SOPClassUID" tag="00080016" vr="UI">
+<Value number="1">1.2.840.10008.5.1.4.1.1.1</Value>
+</DicomAttribute>
+<DicomAttribute keyword="SOPInstanceUID" tag="00080018" vr="UI">
+<Value number="1">1.2.40.0.13.1.1.1.10.231.161.39.20121128094010212.35980</Value>
+</DicomAttribute>
+<DicomAttribute keyword="StudyDate" tag="00080020" vr="DA">
+<Value number="1">20011006</Value>
+</DicomAttribute>
+<DicomAttribute keyword="SeriesDate" tag="00080021" vr="DA"/>
+<DicomAttribute keyword="AcquisitionDate" tag="00080022" vr="DA">
+<Value number="1">20011006</Value>
+</DicomAttribute>
+<DicomAttribute keyword="ContentDate" tag="00080023" vr="DA"/>
+<DicomAttribute keyword="StudyTime" tag="00080030" vr="TM">
+<Value number="1">152435.000000</Value>
+</DicomAttribute>
+<DicomAttribute keyword="AcquisitionTime" tag="00080032" vr="TM">
+<Value number="1">152236</Value>
+</DicomAttribute>
+<DicomAttribute keyword="AccessionNumber" tag="00080050" vr="SH"/>
+<DicomAttribute keyword="Modality" tag="00080060" vr="CS">
+<Value number="1">CR</Value>
+</DicomAttribute>
+<DicomAttribute keyword="Manufacturer" tag="00080070" vr="LO">
+<Value number="1">AGFA</Value>
+</DicomAttribute>
+<DicomAttribute keyword="InstitutionName" tag="00080080" vr="LO"/>
+<DicomAttribute keyword="ReferringPhysicianName" tag="00080090" vr="PN">
+<PersonName number="1">
+<Alphabetic>
+<FamilyName>J</FamilyName>
+<GivenName>R</GivenName>
+</Alphabetic>
+</PersonName>
+</DicomAttribute>
+<DicomAttribute keyword="StationName" tag="00081010" vr="SH">
+<Value number="1">ADC_DIG1</Value>
+</DicomAttribute>
+<DicomAttribute keyword="StudyDescription" tag="00081030" vr="LO">
+<Value number="1">RX LWZ</Value>
+</DicomAttribute>
+<DicomAttribute keyword="SeriesDescription" tag="0008103E" vr="LO">
+<Value number="1">LWZ PA</Value>
+</DicomAttribute>
+<DicomAttribute keyword="InstitutionalDepartmentName" tag="00081040" vr="LO">
+<Value number="1">DEFAULT</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PerformingPhysicianName" tag="00081050" vr="PN">
+<PersonName number="1">
+<Alphabetic>
+<FamilyName>RADIOLOGY</FamilyName>
+</Alphabetic>
+</PersonName>
+</DicomAttribute>
+<DicomAttribute keyword="NameOfPhysiciansReadingStudy" tag="00081060" vr="PN">
+<PersonName number="1">
+<Alphabetic>
+<FamilyName>RADIOLOGY</FamilyName>
+</Alphabetic>
+</PersonName>
+</DicomAttribute>
+<DicomAttribute keyword="ManufacturerModelName" tag="00081090" vr="LO">
+<Value number="1">ADC5140</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PatientName" tag="00100010" vr="PN">
+<PersonName number="1">
+<Alphabetic>
+<FamilyName>ANONYMOUS</FamilyName>
+<GivenName>1055631018</GivenName>
+</Alphabetic>
+</PersonName>
+</DicomAttribute>
+<DicomAttribute keyword="PatientID" tag="00100020" vr="LO">
+<Value number="1">1605</Value>
+</DicomAttribute>
+<DicomAttribute keyword="IssuerOfPatientID" tag="00100021" vr="LO">
+<Value number="1">IMPAX1234TFA</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PatientBirthDate" tag="00100030" vr="DA"/>
+<DicomAttribute keyword="PatientSex" tag="00100040" vr="CS"/>
+<DicomAttribute keyword="OtherPatientIDs" tag="00101000" vr="LO"/>
+<DicomAttribute keyword="PatientAge" tag="00101010" vr="AS"/>
+<DicomAttribute keyword="BranchOfService" tag="00101081" vr="LO">
+<Value number="1">R</Value>
+</DicomAttribute>
+<DicomAttribute keyword="AdditionalPatientHistory" tag="001021B0" vr="LT">
+<Value number="1">pain low back , fever</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PatientComments" tag="00104000" vr="LT"/>
+<DicomAttribute keyword="PatientIdentityRemoved" tag="00120062" vr="CS">
+<Value number="1">YES</Value>
+</DicomAttribute>
+<DicomAttribute keyword="DeidentificationMethod" tag="00120063" vr="LO">
+<Value number="1">hash</Value>
+</DicomAttribute>
+<DicomAttribute keyword="BodyPartExamined" tag="00180015" vr="CS"/>
+<DicomAttribute keyword="DeviceSerialNumber" tag="00181000" vr="LO">
+<Value number="1">PB51402103</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PlateID" tag="00181004" vr="LO">
+<Value number="1">a56</Value>
+</DicomAttribute>
+<DicomAttribute keyword="SoftwareVersions" tag="00181020" vr="LO">
+<Value number="1">VIPS1109</Value>
+</DicomAttribute>
+<DicomAttribute keyword="ImagerPixelSpacing" tag="00181164" vr="DS">
+<Value number="1">1.70000000E-01</Value>
+<Value number="2">1.70000000E-01</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PlateType" tag="00181260" vr="SH">
+<Value number="1">AGFA_ST3</Value>
+</DicomAttribute>
+<DicomAttribute keyword="AcquisitionDeviceProcessingCode" tag="00181401" vr="LO">
+<Value number="1">10090Ia0Ra</Value>
+</DicomAttribute>
+<DicomAttribute keyword="CassetteOrientation" tag="00181402" vr="CS">
+<Value number="1">PORTRAIT</Value>
+</DicomAttribute>
+<DicomAttribute keyword="CassetteSize" tag="00181403" vr="CS">
+<Value number="1">35CMX43CM</Value>
+</DicomAttribute>
+<DicomAttribute keyword="ExposuresOnPlate" tag="00181404" vr="US">
+<Value number="1">2922</Value>
+</DicomAttribute>
+<DicomAttribute keyword="ViewPosition" tag="00185101" vr="CS">
+<Value number="1">PA</Value>
+</DicomAttribute>
+<DicomAttribute keyword="Sensitivity" tag="00186000" vr="DS">
+<Value number="1">4.00000000E+02</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PrivateCreatorID" tag="00190010" privateCreator="AGFA" vr="OB">
+<InlineBinary>TUVOVT0xMDA5MCBDQz0wIE1DPTMuMDAgRUM9MC4wMCBMUj0yLjAwIE5SPTAuMDAg</InlineBinary>
+</DicomAttribute>
+<DicomAttribute keyword="PrivateCreatorID" tag="00190011" privateCreator="AGFA" vr="OB">
+<InlineBinary>QiBKQVNQRVJTXzEg</InlineBinary>
+</DicomAttribute>
+<DicomAttribute keyword="PrivateCreatorID" tag="00190013" privateCreator="AGFA" vr="OB">
+<InlineBinary>Tks1IA==</InlineBinary>
+</DicomAttribute>
+<DicomAttribute keyword="PrivateCreatorID" tag="00190014" privateCreator="AGFA" vr="OB">
+<InlineBinary>MS4zNi8yLjI4IA==</InlineBinary>
+</DicomAttribute>
+<DicomAttribute keyword="PrivateCreatorID" tag="00190015" privateCreator="AGFA" vr="OB">
+<InlineBinary>Mi4yMA==</InlineBinary>
+</DicomAttribute>
+<DicomAttribute keyword="PrivateCreatorID" tag="0019001A" privateCreator="AGFA" vr="OB">
+<InlineBinary>MC4wMA==</InlineBinary>
+</DicomAttribute>
+<DicomAttribute keyword="PrivateCreatorID" tag="0019001B" privateCreator="AGFA" vr="OB">
+<InlineBinary>MC4wMA==</InlineBinary>
+</DicomAttribute>
+<DicomAttribute keyword="StudyInstanceUID" tag="0020000D" vr="UI">
+<Value number="1">1.2.40.0.13.1.1.1.10.231.161.39.20121128094010212.35981</Value>
+</DicomAttribute>
+<DicomAttribute keyword="SeriesInstanceUID" tag="0020000E" vr="UI">
+<Value number="1">1.2.40.0.13.1.1.1.10.231.161.39.20121128094010212.35982</Value>
+</DicomAttribute>
+<DicomAttribute keyword="StudyID" tag="00200010" vr="SH"/>
+<DicomAttribute keyword="SeriesNumber" tag="00200011" vr="IS">
+<Value number="1">1</Value>
+</DicomAttribute>
+<DicomAttribute keyword="InstanceNumber" tag="00200013" vr="IS">
+<Value number="1">1</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PatientOrientation" tag="00200020" vr="CS"/>
+<DicomAttribute keyword="Laterality" tag="00200060" vr="CS"/>
+<DicomAttribute keyword="ImagesInAcquisition" tag="00201002" vr="IS">
+<Value number="1">1</Value>
+</DicomAttribute>
+<DicomAttribute keyword="SamplesPerPixel" tag="00280002" vr="US">
+<Value number="1">1</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PhotometricInterpretation" tag="00280004" vr="CS">
+<Value number="1">MONOCHROME1</Value>
+</DicomAttribute>
+<DicomAttribute keyword="Rows" tag="00280010" vr="US">
+<Value number="1">2495</Value>
+</DicomAttribute>
+<DicomAttribute keyword="Columns" tag="00280011" vr="US">
+<Value number="1">2048</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PixelSpacing" tag="00280030" vr="DS">
+<Value number="1">1.70000000E-01</Value>
+<Value number="2">1.70000000E-01</Value>
+</DicomAttribute>
+<DicomAttribute keyword="BitsAllocated" tag="00280100" vr="US">
+<Value number="1">16</Value>
+</DicomAttribute>
+<DicomAttribute keyword="BitsStored" tag="00280101" vr="US">
+<Value number="1">12</Value>
+</DicomAttribute>
+<DicomAttribute keyword="HighBit" tag="00280102" vr="US">
+<Value number="1">11</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PixelRepresentation" tag="00280103" vr="US">
+<Value number="1">0</Value>
+</DicomAttribute>
+<DicomAttribute keyword="RescaleIntercept" tag="00281052" vr="DS">
+<Value number="1">0.00000000E+00</Value>
+</DicomAttribute>
+<DicomAttribute keyword="RescaleSlope" tag="00281053" vr="DS">
+<Value number="1">1.00000000E+00</Value>
+</DicomAttribute>
+<DicomAttribute keyword="RescaleType" tag="00281054" vr="LO">
+<Value number="1">LOG_E REL</Value>
+</DicomAttribute>
+<DicomAttribute keyword="VOILUTSequence" tag="00283010" vr="SQ">
+<Item number="1">
+<DicomAttribute keyword="LUTDescriptor" tag="00283002" vr="US">
+<Value number="1">1696</Value>
+<Value number="2">1996</Value>
+<Value number="3">16</Value>
+</DicomAttribute>
+<DicomAttribute keyword="LUTExplanation" tag="00283003" vr="LO">
+<Value number="1">NK5</Value>
+</DicomAttribute>
+<DicomAttribute keyword="LUTData" tag="00283006" vr="US">
+<Value number="1">0</Value>
+<Value number="2">0</Value>
+<Value number="3">1</Value>
+<Value number="4">1</Value>
+<Value number="5">2</Value>
+<Value number="6">2</Value>
+<Value number="7">2</Value>
+<Value number="8">3</Value>
+<Value number="9">3</Value>
+<Value number="10">4</Value>
+<Value number="11">4</Value>
+<Value number="12">5</Value>
+<Value number="13">5</Value>
+<Value number="14">5</Value>
+<Value number="15">6</Value>
+<Value number="16">6</Value>
+<Value number="17">7</Value>
+<Value number="18">7</Value>
+<Value number="19">8</Value>
+<Value number="20">8</Value>
+<Value number="21">8</Value>
+<Value number="22">9</Value>
+<Value number="23">9</Value>
+<Value number="24">10</Value>
+<Value number="25">10</Value>
+<Value number="26">11</Value>
+<Value number="27">11</Value>
+<Value number="28">11</Value>
+<Value number="29">12</Value>
+<Value number="30">12</Value>
+<Value number="31">13</Value>
+<Value number="32">13</Value>
+<Value number="33">13</Value>
+<Value number="34">14</Value>
+<Value number="35">14</Value>
+<Value number="36">15</Value>
+<Value number="37">15</Value>
+<Value number="38">16</Value>
+<Value number="39">16</Value>
+<Value number="40">16</Value>
+<Value number="41">17</Value>
+<Value number="42">17</Value>
+<Value number="43">18</Value>
+<Value number="44">18</Value>
+<Value number="45">19</Value>
+<Value number="46">19</Value>
+<Value number="47">19</Value>
+<Value number="48">20</Value>
+<Value number="49">20</Value>
+<Value number="50">21</Value>
+<Value number="51">21</Value>
+<Value number="52">22</Value>
+<Value number="53">22</Value>
+<Value number="54">22</Value>
+<Value number="55">23</Value>
+<Value number="56">23</Value>
+<Value number="57">24</Value>
+<Value number="58">24</Value>
+<Value number="59">24</Value>
+<Value number="60">25</Value>
+<Value number="61">25</Value>
+<Value number="62">26</Value>
+<Value number="63">26</Value>
+<Value number="64">27</Value>
+<Value number="65">27</Value>
+<Value number="66">27</Value>
+<Value number="67">28</Value>
+<Value number="68">28</Value>
+<Value number="69">29</Value>
+<Value number="70">29</Value>
+<Value number="71">30</Value>
+<Value number="72">30</Value>
+<Value number="73">30</Value>
+<Value number="74">31</Value>
+<Value number="75">31</Value>
+<Value number="76">32</Value>
+<Value number="77">32</Value>
+<Value number="78">32</Value>
+<Value number="79">33</Value>
+<Value number="80">33</Value>
+<Value number="81">34</Value>
+<Value number="82">34</Value>
+<Value number="83">35</Value>
+<Value number="84">35</Value>
+<Value number="85">35</Value>
+<Value number="86">36</Value>
+<Value number="87">36</Value>
+<Value number="88">37</Value>
+<Value number="89">37</Value>
+<Value number="90">38</Value>
+<Value number="91">38</Value>
+<Value number="92">38</Value>
+<Value number="93">39</Value>
+<Value number="94">39</Value>
+<Value number="95">40</Value>
+<Value number="96">40</Value>
+<Value number="97">41</Value>
+<Value number="98">41</Value>
+<Value number="99">41</Value>
+<Value number="100">42</Value>
+<Value number="101">42</Value>
+<Value number="102">43</Value>
+<Value number="103">43</Value>
+<Value number="104">43</Value>
+<Value number="105">44</Value>
+<Value number="106">44</Value>
+<Value number="107">45</Value>
+<Value number="108">45</Value>
+<Value number="109">46</Value>
+<Value number="110">47</Value>
+<Value number="111">47</Value>
+<Value number="112">48</Value>
+<Value number="113">48</Value>
+<Value number="114">49</Value>
+<Value number="115">50</Value>
+<Value number="116">50</Value>
+<Value number="117">51</Value>
+<Value number="118">51</Value>
+<Value number="119">52</Value>
+<Value number="120">52</Value>
+<Value number="121">53</Value>
+<Value number="122">54</Value>
+<Value number="123">54</Value>
+<Value number="124">55</Value>
+<Value number="125">55</Value>
+<Value number="126">56</Value>
+<Value number="127">57</Value>
+<Value number="128">57</Value>
+<Value number="129">58</Value>
+<Value number="130">58</Value>
+<Value number="131">59</Value>
+<Value number="132">60</Value>
+<Value number="133">60</Value>
+<Value number="134">61</Value>
+<Value number="135">61</Value>
+<Value number="136">62</Value>
+<Value number="137">63</Value>
+<Value number="138">63</Value>
+<Value number="139">64</Value>
+<Value number="140">64</Value>
+<Value number="141">65</Value>
+<Value number="142">65</Value>
+<Value number="143">66</Value>
+<Value number="144">67</Value>
+<Value number="145">67</Value>
+<Value number="146">68</Value>
+<Value number="147">68</Value>
+<Value number="148">69</Value>
+<Value number="149">70</Value>
+<Value number="150">70</Value>
+<Value number="151">71</Value>
+<Value number="152">71</Value>
+<Value number="153">72</Value>
+<Value number="154">73</Value>
+<Value number="155">73</Value>
+<Value number="156">74</Value>
+<Value number="157">74</Value>
+<Value number="158">75</Value>
+<Value number="159">76</Value>
+<Value number="160">76</Value>
+<Value number="161">77</Value>
+<Value number="162">77</Value>
+<Value number="163">78</Value>
+<Value number="164">79</Value>
+<Value number="165">79</Value>
+<Value number="166">80</Value>
+<Value number="167">80</Value>
+<Value number="168">81</Value>
+<Value number="169">81</Value>
+<Value number="170">82</Value>
+<Value number="171">83</Value>
+<Value number="172">83</Value>
+<Value number="173">84</Value>
+<Value number="174">84</Value>
+<Value number="175">85</Value>
+<Value number="176">86</Value>
+<Value number="177">86</Value>
+<Value number="178">87</Value>
+<Value number="179">87</Value>
+<Value number="180">88</Value>
+<Value number="181">89</Value>
+<Value number="182">89</Value>
+<Value number="183">90</Value>
+<Value number="184">90</Value>
+<Value number="185">91</Value>
+<Value number="186">92</Value>
+<Value number="187">92</Value>
+<Value number="188">93</Value>
+<Value number="189">93</Value>
+<Value number="190">94</Value>
+<Value number="191">94</Value>
+<Value number="192">95</Value>
+<Value number="193">96</Value>
+<Value number="194">96</Value>
+<Value number="195">97</Value>
+<Value number="196">97</Value>
+<Value number="197">98</Value>
+<Value number="198">99</Value>
+<Value number="199">99</Value>
+<Value number="200">100</Value>
+<Value number="201">100</Value>
+<Value number="202">101</Value>
+<Value number="203">102</Value>
+<Value number="204">102</Value>
+<Value number="205">103</Value>
+<Value number="206">103</Value>
+<Value number="207">104</Value>
+<Value number="208">105</Value>
+<Value number="209">105</Value>
+<Value number="210">106</Value>
+<Value number="211">106</Value>
+<Value number="212">107</Value>
+<Value number="213">108</Value>
+<Value number="214">108</Value>
+<Value number="215">109</Value>
+<Value number="216">110</Value>
+<Value number="217">111</Value>
+<Value number="218">111</Value>
+<Value number="219">112</Value>
+<Value number="220">113</Value>
+<Value number="221">114</Value>
+<Value number="222">115</Value>
+<Value number="223">115</Value>
+<Value number="224">116</Value>
+<Value number="225">117</Value>
+<Value number="226">118</Value>
+<Value number="227">119</Value>
+<Value number="228">119</Value>
+<Value number="229">120</Value>
+<Value number="230">121</Value>
+<Value number="231">122</Value>
+<Value number="232">123</Value>
+<Value number="233">123</Value>
+<Value number="234">124</Value>
+<Value number="235">125</Value>
+<Value number="236">126</Value>
+<Value number="237">126</Value>
+<Value number="238">127</Value>
+<Value number="239">128</Value>
+<Value number="240">129</Value>
+<Value number="241">130</Value>
+<Value number="242">130</Value>
+<Value number="243">131</Value>
+<Value number="244">132</Value>
+<Value number="245">133</Value>
+<Value number="246">134</Value>
+<Value number="247">134</Value>
+<Value number="248">135</Value>
+<Value number="249">136</Value>
+<Value number="250">137</Value>
+<Value number="251">138</Value>
+<Value number="252">138</Value>
+<Value number="253">139</Value>
+<Value number="254">140</Value>
+<Value number="255">141</Value>
+<Value number="256">141</Value>
+<Value number="257">142</Value>
+<Value number="258">143</Value>
+<Value number="259">144</Value>
+<Value number="260">145</Value>
+<Value number="261">145</Value>
+<Value number="262">146</Value>
+<Value number="263">147</Value>
+<Value number="264">148</Value>
+<Value number="265">149</Value>
+<Value number="266">149</Value>
+<Value number="267">150</Value>
+<Value number="268">151</Value>
+<Value number="269">152</Value>
+<Value number="270">153</Value>
+<Value number="271">153</Value>
+<Value number="272">154</Value>
+<Value number="273">155</Value>
+<Value number="274">156</Value>
+<Value number="275">156</Value>
+<Value number="276">157</Value>
+<Value number="277">158</Value>
+<Value number="278">159</Value>
+<Value number="279">160</Value>
+<Value number="280">160</Value>
+<Value number="281">161</Value>
+<Value number="282">162</Value>
+<Value number="283">163</Value>
+<Value number="284">164</Value>
+<Value number="285">164</Value>
+<Value number="286">165</Value>
+<Value number="287">166</Value>
+<Value number="288">167</Value>
+<Value number="289">168</Value>
+<Value number="290">168</Value>
+<Value number="291">169</Value>
+<Value number="292">170</Value>
+<Value number="293">171</Value>
+<Value number="294">171</Value>
+<Value number="295">172</Value>
+<Value number="296">173</Value>
+<Value number="297">174</Value>
+<Value number="298">175</Value>
+<Value number="299">175</Value>
+<Value number="300">176</Value>
+<Value number="301">177</Value>
+<Value number="302">178</Value>
+<Value number="303">179</Value>
+<Value number="304">179</Value>
+<Value number="305">180</Value>
+<Value number="306">181</Value>
+<Value number="307">182</Value>
+<Value number="308">183</Value>
+<Value number="309">183</Value>
+<Value number="310">184</Value>
+<Value number="311">185</Value>
+<Value number="312">186</Value>
+<Value number="313">186</Value>
+<Value number="314">187</Value>
+<Value number="315">188</Value>
+<Value number="316">189</Value>
+<Value number="317">190</Value>
+<Value number="318">190</Value>
+<Value number="319">191</Value>
+<Value number="320">192</Value>
+<Value number="321">193</Value>
+<Value number="322">194</Value>
+<Value number="323">195</Value>
+<Value number="324">196</Value>
+<Value number="325">197</Value>
+<Value number="326">198</Value>
+<Value number="327">199</Value>
+<Value number="328">200</Value>
+<Value number="329">201</Value>
+<Value number="330">202</Value>
+<Value number="331">203</Value>
+<Value number="332">204</Value>
+<Value number="333">205</Value>
+<Value number="334">206</Value>
+<Value number="335">207</Value>
+<Value number="336">208</Value>
+<Value number="337">209</Value>
+<Value number="338">209</Value>
+<Value number="339">210</Value>
+<Value number="340">211</Value>
+<Value number="341">212</Value>
+<Value number="342">213</Value>
+<Value number="343">214</Value>
+<Value number="344">215</Value>
+<Value number="345">216</Value>
+<Value number="346">217</Value>
+<Value number="347">218</Value>
+<Value number="348">219</Value>
+<Value number="349">220</Value>
+<Value number="350">221</Value>
+<Value number="351">222</Value>
+<Value number="352">223</Value>
+<Value number="353">224</Value>
+<Value number="354">225</Value>
+<Value number="355">226</Value>
+<Value number="356">227</Value>
+<Value number="357">228</Value>
+<Value number="358">229</Value>
+<Value number="359">230</Value>
+<Value number="360">231</Value>
+<Value number="361">232</Value>
+<Value number="362">232</Value>
+<Value number="363">233</Value>
+<Value number="364">234</Value>
+<Value number="365">235</Value>
+<Value number="366">236</Value>
+<Value number="367">237</Value>
+<Value number="368">238</Value>
+<Value number="369">239</Value>
+<Value number="370">240</Value>
+<Value number="371">241</Value>
+<Value number="372">242</Value>
+<Value number="373">243</Value>
+<Value number="374">244</Value>
+<Value number="375">245</Value>
+<Value number="376">246</Value>
+<Value number="377">247</Value>
+<Value number="378">248</Value>
+<Value number="379">249</Value>
+<Value number="380">249</Value>
+<Value number="381">250</Value>
+<Value number="382">251</Value>
+<Value number="383">252</Value>
+<Value number="384">253</Value>
+<Value number="385">254</Value>
+<Value number="386">255</Value>
+<Value number="387">256</Value>
+<Value number="388">257</Value>
+<Value number="389">258</Value>
+<Value number="390">259</Value>
+<Value number="391">260</Value>
+<Value number="392">261</Value>
+<Value number="393">262</Value>
+<Value number="394">263</Value>
+<Value number="395">263</Value>
+<Value number="396">264</Value>
+<Value number="397">265</Value>
+<Value number="398">266</Value>
+<Value number="399">267</Value>
+<Value number="400">268</Value>
+<Value number="401">269</Value>
+<Value number="402">270</Value>
+<Value number="403">271</Value>
+<Value number="404">272</Value>
+<Value number="405">273</Value>
+<Value number="406">274</Value>
+<Value number="407">275</Value>
+<Value number="408">276</Value>
+<Value number="409">276</Value>
+<Value number="410">277</Value>
+<Value number="411">278</Value>
+<Value number="412">279</Value>
+<Value number="413">280</Value>
+<Value number="414">281</Value>
+<Value number="415">282</Value>
+<Value number="416">283</Value>
+<Value number="417">284</Value>
+<Value number="418">285</Value>
+<Value number="419">286</Value>
+<Value number="420">287</Value>
+<Value number="421">288</Value>
+<Value number="422">289</Value>
+<Value number="423">289</Value>
+<Value number="424">290</Value>
+<Value number="425">291</Value>
+<Value number="426">293</Value>
+<Value number="427">294</Value>
+<Value number="428">295</Value>
+<Value number="429">296</Value>
+<Value number="430">297</Value>
+<Value number="431">299</Value>
+<Value number="432">300</Value>
+<Value number="433">301</Value>
+<Value number="434">302</Value>
+<Value number="435">304</Value>
+<Value number="436">305</Value>
+<Value number="437">306</Value>
+<Value number="438">307</Value>
+<Value number="439">308</Value>
+<Value number="440">310</Value>
+<Value number="441">311</Value>
+<Value number="442">312</Value>
+<Value number="443">313</Value>
+<Value number="444">314</Value>
+<Value number="445">316</Value>
+<Value number="446">317</Value>
+<Value number="447">318</Value>
+<Value number="448">319</Value>
+<Value number="449">321</Value>
+<Value number="450">322</Value>
+<Value number="451">323</Value>
+<Value number="452">324</Value>
+<Value number="453">325</Value>
+<Value number="454">327</Value>
+<Value number="455">328</Value>
+<Value number="456">329</Value>
+<Value number="457">330</Value>
+<Value number="458">331</Value>
+<Value number="459">333</Value>
+<Value number="460">334</Value>
+<Value number="461">335</Value>
+<Value number="462">336</Value>
+<Value number="463">337</Value>
+<Value number="464">339</Value>
+<Value number="465">340</Value>
+<Value number="466">341</Value>
+<Value number="467">342</Value>
+<Value number="468">344</Value>
+<Value number="469">345</Value>
+<Value number="470">346</Value>
+<Value number="471">347</Value>
+<Value number="472">348</Value>
+<Value number="473">350</Value>
+<Value number="474">351</Value>
+<Value number="475">352</Value>
+<Value number="476">353</Value>
+<Value number="477">354</Value>
+<Value number="478">356</Value>
+<Value number="479">357</Value>
+<Value number="480">358</Value>
+<Value number="481">359</Value>
+<Value number="482">360</Value>
+<Value number="483">362</Value>
+<Value number="484">363</Value>
+<Value number="485">364</Value>
+<Value number="486">365</Value>
+<Value number="487">366</Value>
+<Value number="488">367</Value>
+<Value number="489">369</Value>
+<Value number="490">370</Value>
+<Value number="491">371</Value>
+<Value number="492">372</Value>
+<Value number="493">373</Value>
+<Value number="494">375</Value>
+<Value number="495">376</Value>
+<Value number="496">377</Value>
+<Value number="497">378</Value>
+<Value number="498">379</Value>
+<Value number="499">381</Value>
+<Value number="500">382</Value>
+<Value number="501">383</Value>
+<Value number="502">384</Value>
+<Value number="503">385</Value>
+<Value number="504">386</Value>
+<Value number="505">388</Value>
+<Value number="506">389</Value>
+<Value number="507">390</Value>
+<Value number="508">391</Value>
+<Value number="509">392</Value>
+<Value number="510">394</Value>
+<Value number="511">395</Value>
+<Value number="512">396</Value>
+<Value number="513">397</Value>
+<Value number="514">398</Value>
+<Value number="515">399</Value>
+<Value number="516">401</Value>
+<Value number="517">402</Value>
+<Value number="518">403</Value>
+<Value number="519">404</Value>
+<Value number="520">405</Value>
+<Value number="521">407</Value>
+<Value number="522">408</Value>
+<Value number="523">409</Value>
+<Value number="524">410</Value>
+<Value number="525">411</Value>
+<Value number="526">412</Value>
+<Value number="527">414</Value>
+<Value number="528">415</Value>
+<Value number="529">416</Value>
+<Value number="530">417</Value>
+<Value number="531">419</Value>
+<Value number="532">420</Value>
+<Value number="533">422</Value>
+<Value number="534">423</Value>
+<Value number="535">425</Value>
+<Value number="536">426</Value>
+<Value number="537">428</Value>
+<Value number="538">430</Value>
+<Value number="539">431</Value>
+<Value number="540">433</Value>
+<Value number="541">434</Value>
+<Value number="542">436</Value>
+<Value number="543">437</Value>
+<Value number="544">439</Value>
+<Value number="545">441</Value>
+<Value number="546">442</Value>
+<Value number="547">444</Value>
+<Value number="548">445</Value>
+<Value number="549">447</Value>
+<Value number="550">449</Value>
+<Value number="551">450</Value>
+<Value number="552">452</Value>
+<Value number="553">453</Value>
+<Value number="554">455</Value>
+<Value number="555">456</Value>
+<Value number="556">458</Value>
+<Value number="557">460</Value>
+<Value number="558">461</Value>
+<Value number="559">463</Value>
+<Value number="560">464</Value>
+<Value number="561">466</Value>
+<Value number="562">467</Value>
+<Value number="563">469</Value>
+<Value number="564">471</Value>
+<Value number="565">472</Value>
+<Value number="566">474</Value>
+<Value number="567">475</Value>
+<Value number="568">477</Value>
+<Value number="569">479</Value>
+<Value number="570">480</Value>
+<Value number="571">482</Value>
+<Value number="572">483</Value>
+<Value number="573">485</Value>
+<Value number="574">486</Value>
+<Value number="575">488</Value>
+<Value number="576">490</Value>
+<Value number="577">491</Value>
+<Value number="578">493</Value>
+<Value number="579">494</Value>
+<Value number="580">496</Value>
+<Value number="581">497</Value>
+<Value number="582">499</Value>
+<Value number="583">501</Value>
+<Value number="584">502</Value>
+<Value number="585">504</Value>
+<Value number="586">506</Value>
+<Value number="587">508</Value>
+<Value number="588">509</Value>
+<Value number="589">511</Value>
+<Value number="590">513</Value>
+<Value number="591">515</Value>
+<Value number="592">517</Value>
+<Value number="593">519</Value>
+<Value number="594">520</Value>
+<Value number="595">522</Value>
+<Value number="596">524</Value>
+<Value number="597">526</Value>
+<Value number="598">528</Value>
+<Value number="599">529</Value>
+<Value number="600">531</Value>
+<Value number="601">533</Value>
+<Value number="602">535</Value>
+<Value number="603">537</Value>
+<Value number="604">538</Value>
+<Value number="605">540</Value>
+<Value number="606">542</Value>
+<Value number="607">544</Value>
+<Value number="608">546</Value>
+<Value number="609">547</Value>
+<Value number="610">549</Value>
+<Value number="611">551</Value>
+<Value number="612">553</Value>
+<Value number="613">555</Value>
+<Value number="614">556</Value>
+<Value number="615">558</Value>
+<Value number="616">560</Value>
+<Value number="617">562</Value>
+<Value number="618">564</Value>
+<Value number="619">565</Value>
+<Value number="620">567</Value>
+<Value number="621">569</Value>
+<Value number="622">571</Value>
+<Value number="623">573</Value>
+<Value number="624">574</Value>
+<Value number="625">576</Value>
+<Value number="626">578</Value>
+<Value number="627">580</Value>
+<Value number="628">582</Value>
+<Value number="629">583</Value>
+<Value number="630">585</Value>
+<Value number="631">587</Value>
+<Value number="632">589</Value>
+<Value number="633">591</Value>
+<Value number="634">592</Value>
+<Value number="635">594</Value>
+<Value number="636">596</Value>
+<Value number="637">598</Value>
+<Value number="638">600</Value>
+<Value number="639">602</Value>
+<Value number="640">604</Value>
+<Value number="641">606</Value>
+<Value number="642">608</Value>
+<Value number="643">611</Value>
+<Value number="644">613</Value>
+<Value number="645">615</Value>
+<Value number="646">617</Value>
+<Value number="647">619</Value>
+<Value number="648">621</Value>
+<Value number="649">623</Value>
+<Value number="650">625</Value>
+<Value number="651">627</Value>
+<Value number="652">630</Value>
+<Value number="653">632</Value>
+<Value number="654">634</Value>
+<Value number="655">636</Value>
+<Value number="656">638</Value>
+<Value number="657">640</Value>
+<Value number="658">642</Value>
+<Value number="659">644</Value>
+<Value number="660">647</Value>
+<Value number="661">649</Value>
+<Value number="662">651</Value>
+<Value number="663">653</Value>
+<Value number="664">655</Value>
+<Value number="665">657</Value>
+<Value number="666">659</Value>
+<Value number="667">661</Value>
+<Value number="668">663</Value>
+<Value number="669">666</Value>
+<Value number="670">668</Value>
+<Value number="671">670</Value>
+<Value number="672">672</Value>
+<Value number="673">674</Value>
+<Value number="674">676</Value>
+<Value number="675">678</Value>
+<Value number="676">680</Value>
+<Value number="677">682</Value>
+<Value number="678">685</Value>
+<Value number="679">687</Value>
+<Value number="680">689</Value>
+<Value number="681">691</Value>
+<Value number="682">693</Value>
+<Value number="683">695</Value>
+<Value number="684">697</Value>
+<Value number="685">699</Value>
+<Value number="686">701</Value>
+<Value number="687">704</Value>
+<Value number="688">706</Value>
+<Value number="689">708</Value>
+<Value number="690">710</Value>
+<Value number="691">712</Value>
+<Value number="692">714</Value>
+<Value number="693">716</Value>
+<Value number="694">718</Value>
+<Value number="695">721</Value>
+<Value number="696">723</Value>
+<Value number="697">725</Value>
+<Value number="698">727</Value>
+<Value number="699">729</Value>
+<Value number="700">731</Value>
+<Value number="701">733</Value>
+<Value number="702">735</Value>
+<Value number="703">737</Value>
+<Value number="704">740</Value>
+<Value number="705">742</Value>
+<Value number="706">744</Value>
+<Value number="707">746</Value>
+<Value number="708">748</Value>
+<Value number="709">750</Value>
+<Value number="710">752</Value>
+<Value number="711">754</Value>
+<Value number="712">756</Value>
+<Value number="713">759</Value>
+<Value number="714">761</Value>
+<Value number="715">763</Value>
+<Value number="716">765</Value>
+<Value number="717">767</Value>
+<Value number="718">769</Value>
+<Value number="719">771</Value>
+<Value number="720">773</Value>
+<Value number="721">775</Value>
+<Value number="722">778</Value>
+<Value number="723">780</Value>
+<Value number="724">782</Value>
+<Value number="725">784</Value>
+<Value number="726">786</Value>
+<Value number="727">788</Value>
+<Value number="728">790</Value>
+<Value number="729">792</Value>
+<Value number="730">795</Value>
+<Value number="731">797</Value>
+<Value number="732">799</Value>
+<Value number="733">801</Value>
+<Value number="734">803</Value>
+<Value number="735">805</Value>
+<Value number="736">807</Value>
+<Value number="737">809</Value>
+<Value number="738">811</Value>
+<Value number="739">814</Value>
+<Value number="740">816</Value>
+<Value number="741">818</Value>
+<Value number="742">820</Value>
+<Value number="743">822</Value>
+<Value number="744">825</Value>
+<Value number="745">827</Value>
+<Value number="746">830</Value>
+<Value number="747">832</Value>
+<Value number="748">835</Value>
+<Value number="749">837</Value>
+<Value number="750">840</Value>
+<Value number="751">842</Value>
+<Value number="752">844</Value>
+<Value number="753">847</Value>
+<Value number="754">849</Value>
+<Value number="755">852</Value>
+<Value number="756">854</Value>
+<Value number="757">857</Value>
+<Value number="758">859</Value>
+<Value number="759">862</Value>
+<Value number="760">864</Value>
+<Value number="761">867</Value>
+<Value number="762">869</Value>
+<Value number="763">872</Value>
+<Value number="764">874</Value>
+<Value number="765">877</Value>
+<Value number="766">879</Value>
+<Value number="767">882</Value>
+<Value number="768">884</Value>
+<Value number="769">887</Value>
+<Value number="770">889</Value>
+<Value number="771">892</Value>
+<Value number="772">894</Value>
+<Value number="773">897</Value>
+<Value number="774">899</Value>
+<Value number="775">902</Value>
+<Value number="776">904</Value>
+<Value number="777">907</Value>
+<Value number="778">909</Value>
+<Value number="779">911</Value>
+<Value number="780">914</Value>
+<Value number="781">916</Value>
+<Value number="782">919</Value>
+<Value number="783">921</Value>
+<Value number="784">924</Value>
+<Value number="785">926</Value>
+<Value number="786">929</Value>
+<Value number="787">931</Value>
+<Value number="788">934</Value>
+<Value number="789">936</Value>
+<Value number="790">939</Value>
+<Value number="791">941</Value>
+<Value number="792">944</Value>
+<Value number="793">946</Value>
+<Value number="794">949</Value>
+<Value number="795">951</Value>
+<Value number="796">954</Value>
+<Value number="797">956</Value>
+<Value number="798">959</Value>
+<Value number="799">961</Value>
+<Value number="800">964</Value>
+<Value number="801">966</Value>
+<Value number="802">969</Value>
+<Value number="803">971</Value>
+<Value number="804">973</Value>
+<Value number="805">976</Value>
+<Value number="806">978</Value>
+<Value number="807">981</Value>
+<Value number="808">983</Value>
+<Value number="809">986</Value>
+<Value number="810">988</Value>
+<Value number="811">991</Value>
+<Value number="812">993</Value>
+<Value number="813">996</Value>
+<Value number="814">998</Value>
+<Value number="815">1001</Value>
+<Value number="816">1003</Value>
+<Value number="817">1006</Value>
+<Value number="818">1008</Value>
+<Value number="819">1011</Value>
+<Value number="820">1013</Value>
+<Value number="821">1016</Value>
+<Value number="822">1018</Value>
+<Value number="823">1021</Value>
+<Value number="824">1023</Value>
+<Value number="825">1026</Value>
+<Value number="826">1028</Value>
+<Value number="827">1031</Value>
+<Value number="828">1033</Value>
+<Value number="829">1036</Value>
+<Value number="830">1038</Value>
+<Value number="831">1040</Value>
+<Value number="832">1043</Value>
+<Value number="833">1045</Value>
+<Value number="834">1048</Value>
+<Value number="835">1050</Value>
+<Value number="836">1053</Value>
+<Value number="837">1055</Value>
+<Value number="838">1058</Value>
+<Value number="839">1060</Value>
+<Value number="840">1063</Value>
+<Value number="841">1065</Value>
+<Value number="842">1068</Value>
+<Value number="843">1070</Value>
+<Value number="844">1073</Value>
+<Value number="845">1075</Value>
+<Value number="846">1078</Value>
+<Value number="847">1080</Value>
+<Value number="848">1083</Value>
+<Value number="849">1085</Value>
+<Value number="850">1088</Value>
+<Value number="851">1090</Value>
+<Value number="852">1093</Value>
+<Value number="853">1095</Value>
+<Value number="854">1098</Value>
+<Value number="855">1100</Value>
+<Value number="856">1102</Value>
+<Value number="857">1105</Value>
+<Value number="858">1107</Value>
+<Value number="859">1110</Value>
+<Value number="860">1112</Value>
+<Value number="861">1115</Value>
+<Value number="862">1117</Value>
+<Value number="863">1120</Value>
+<Value number="864">1122</Value>
+<Value number="865">1125</Value>
+<Value number="866">1127</Value>
+<Value number="867">1130</Value>
+<Value number="868">1132</Value>
+<Value number="869">1135</Value>
+<Value number="870">1137</Value>
+<Value number="871">1140</Value>
+<Value number="872">1142</Value>
+<Value number="873">1145</Value>
+<Value number="874">1147</Value>
+<Value number="875">1150</Value>
+<Value number="876">1152</Value>
+<Value number="877">1155</Value>
+<Value number="878">1157</Value>
+<Value number="879">1160</Value>
+<Value number="880">1162</Value>
+<Value number="881">1165</Value>
+<Value number="882">1167</Value>
+<Value number="883">1169</Value>
+<Value number="884">1172</Value>
+<Value number="885">1174</Value>
+<Value number="886">1177</Value>
+<Value number="887">1179</Value>
+<Value number="888">1182</Value>
+<Value number="889">1184</Value>
+<Value number="890">1187</Value>
+<Value number="891">1189</Value>
+<Value number="892">1192</Value>
+<Value number="893">1194</Value>
+<Value number="894">1197</Value>
+<Value number="895">1199</Value>
+<Value number="896">1202</Value>
+<Value number="897">1204</Value>
+<Value number="898">1207</Value>
+<Value number="899">1209</Value>
+<Value number="900">1212</Value>
+<Value number="901">1214</Value>
+<Value number="902">1217</Value>
+<Value number="903">1219</Value>
+<Value number="904">1222</Value>
+<Value number="905">1225</Value>
+<Value number="906">1228</Value>
+<Value number="907">1230</Value>
+<Value number="908">1233</Value>
+<Value number="909">1236</Value>
+<Value number="910">1239</Value>
+<Value number="911">1241</Value>
+<Value number="912">1244</Value>
+<Value number="913">1247</Value>
+<Value number="914">1250</Value>
+<Value number="915">1253</Value>
+<Value number="916">1255</Value>
+<Value number="917">1258</Value>
+<Value number="918">1261</Value>
+<Value number="919">1264</Value>
+<Value number="920">1266</Value>
+<Value number="921">1269</Value>
+<Value number="922">1272</Value>
+<Value number="923">1275</Value>
+<Value number="924">1277</Value>
+<Value number="925">1280</Value>
+<Value number="926">1283</Value>
+<Value number="927">1286</Value>
+<Value number="928">1288</Value>
+<Value number="929">1291</Value>
+<Value number="930">1294</Value>
+<Value number="931">1297</Value>
+<Value number="932">1300</Value>
+<Value number="933">1302</Value>
+<Value number="934">1305</Value>
+<Value number="935">1308</Value>
+<Value number="936">1311</Value>
+<Value number="937">1313</Value>
+<Value number="938">1316</Value>
+<Value number="939">1319</Value>
+<Value number="940">1322</Value>
+<Value number="941">1324</Value>
+<Value number="942">1327</Value>
+<Value number="943">1330</Value>
+<Value number="944">1333</Value>
+<Value number="945">1335</Value>
+<Value number="946">1338</Value>
+<Value number="947">1341</Value>
+<Value number="948">1344</Value>
+<Value number="949">1346</Value>
+<Value number="950">1349</Value>
+<Value number="951">1352</Value>
+<Value number="952">1355</Value>
+<Value number="953">1358</Value>
+<Value number="954">1360</Value>
+<Value number="955">1363</Value>
+<Value number="956">1366</Value>
+<Value number="957">1369</Value>
+<Value number="958">1372</Value>
+<Value number="959">1375</Value>
+<Value number="960">1378</Value>
+<Value number="961">1381</Value>
+<Value number="962">1384</Value>
+<Value number="963">1387</Value>
+<Value number="964">1390</Value>
+<Value number="965">1393</Value>
+<Value number="966">1396</Value>
+<Value number="967">1399</Value>
+<Value number="968">1402</Value>
+<Value number="969">1405</Value>
+<Value number="970">1408</Value>
+<Value number="971">1411</Value>
+<Value number="972">1414</Value>
+<Value number="973">1417</Value>
+<Value number="974">1421</Value>
+<Value number="975">1424</Value>
+<Value number="976">1427</Value>
+<Value number="977">1430</Value>
+<Value number="978">1433</Value>
+<Value number="979">1436</Value>
+<Value number="980">1439</Value>
+<Value number="981">1442</Value>
+<Value number="982">1445</Value>
+<Value number="983">1448</Value>
+<Value number="984">1451</Value>
+<Value number="985">1454</Value>
+<Value number="986">1457</Value>
+<Value number="987">1460</Value>
+<Value number="988">1463</Value>
+<Value number="989">1466</Value>
+<Value number="990">1469</Value>
+<Value number="991">1472</Value>
+<Value number="992">1475</Value>
+<Value number="993">1478</Value>
+<Value number="994">1481</Value>
+<Value number="995">1484</Value>
+<Value number="996">1487</Value>
+<Value number="997">1490</Value>
+<Value number="998">1493</Value>
+<Value number="999">1496</Value>
+<Value number="1000">1499</Value>
+<Value number="1001">1502</Value>
+<Value number="1002">1505</Value>
+<Value number="1003">1508</Value>
+<Value number="1004">1511</Value>
+<Value number="1005">1514</Value>
+<Value number="1006">1517</Value>
+<Value number="1007">1520</Value>
+<Value number="1008">1523</Value>
+<Value number="1009">1526</Value>
+<Value number="1010">1529</Value>
+<Value number="1011">1532</Value>
+<Value number="1012">1535</Value>
+<Value number="1013">1538</Value>
+<Value number="1014">1541</Value>
+<Value number="1015">1544</Value>
+<Value number="1016">1547</Value>
+<Value number="1017">1550</Value>
+<Value number="1018">1553</Value>
+<Value number="1019">1556</Value>
+<Value number="1020">1559</Value>
+<Value number="1021">1562</Value>
+<Value number="1022">1565</Value>
+<Value number="1023">1568</Value>
+<Value number="1024">1571</Value>
+<Value number="1025">1574</Value>
+<Value number="1026">1577</Value>
+<Value number="1027">1580</Value>
+<Value number="1028">1583</Value>
+<Value number="1029">1586</Value>
+<Value number="1030">1589</Value>
+<Value number="1031">1592</Value>
+<Value number="1032">1595</Value>
+<Value number="1033">1598</Value>
+<Value number="1034">1601</Value>
+<Value number="1035">1604</Value>
+<Value number="1036">1607</Value>
+<Value number="1037">1610</Value>
+<Value number="1038">1613</Value>
+<Value number="1039">1616</Value>
+<Value number="1040">1619</Value>
+<Value number="1041">1622</Value>
+<Value number="1042">1625</Value>
+<Value number="1043">1628</Value>
+<Value number="1044">1631</Value>
+<Value number="1045">1634</Value>
+<Value number="1046">1637</Value>
+<Value number="1047">1640</Value>
+<Value number="1048">1643</Value>
+<Value number="1049">1646</Value>
+<Value number="1050">1649</Value>
+<Value number="1051">1652</Value>
+<Value number="1052">1655</Value>
+<Value number="1053">1658</Value>
+<Value number="1054">1660</Value>
+<Value number="1055">1663</Value>
+<Value number="1056">1666</Value>
+<Value number="1057">1669</Value>
+<Value number="1058">1672</Value>
+<Value number="1059">1675</Value>
+<Value number="1060">1678</Value>
+<Value number="1061">1682</Value>
+<Value number="1062">1685</Value>
+<Value number="1063">1688</Value>
+<Value number="1064">1691</Value>
+<Value number="1065">1694</Value>
+<Value number="1066">1697</Value>
+<Value number="1067">1700</Value>
+<Value number="1068">1703</Value>
+<Value number="1069">1707</Value>
+<Value number="1070">1710</Value>
+<Value number="1071">1713</Value>
+<Value number="1072">1716</Value>
+<Value number="1073">1719</Value>
+<Value number="1074">1722</Value>
+<Value number="1075">1725</Value>
+<Value number="1076">1728</Value>
+<Value number="1077">1732</Value>
+<Value number="1078">1735</Value>
+<Value number="1079">1738</Value>
+<Value number="1080">1741</Value>
+<Value number="1081">1744</Value>
+<Value number="1082">1747</Value>
+<Value number="1083">1750</Value>
+<Value number="1084">1753</Value>
+<Value number="1085">1756</Value>
+<Value number="1086">1760</Value>
+<Value number="1087">1763</Value>
+<Value number="1088">1766</Value>
+<Value number="1089">1769</Value>
+<Value number="1090">1772</Value>
+<Value number="1091">1775</Value>
+<Value number="1092">1778</Value>
+<Value number="1093">1782</Value>
+<Value number="1094">1785</Value>
+<Value number="1095">1788</Value>
+<Value number="1096">1791</Value>
+<Value number="1097">1794</Value>
+<Value number="1098">1797</Value>
+<Value number="1099">1800</Value>
+<Value number="1100">1803</Value>
+<Value number="1101">1807</Value>
+<Value number="1102">1810</Value>
+<Value number="1103">1813</Value>
+<Value number="1104">1816</Value>
+<Value number="1105">1819</Value>
+<Value number="1106">1822</Value>
+<Value number="1107">1825</Value>
+<Value number="1108">1828</Value>
+<Value number="1109">1832</Value>
+<Value number="1110">1835</Value>
+<Value number="1111">1838</Value>
+<Value number="1112">1841</Value>
+<Value number="1113">1844</Value>
+<Value number="1114">1847</Value>
+<Value number="1115">1850</Value>
+<Value number="1116">1853</Value>
+<Value number="1117">1857</Value>
+<Value number="1118">1860</Value>
+<Value number="1119">1863</Value>
+<Value number="1120">1866</Value>
+<Value number="1121">1869</Value>
+<Value number="1122">1872</Value>
+<Value number="1123">1875</Value>
+<Value number="1124">1879</Value>
+<Value number="1125">1882</Value>
+<Value number="1126">1885</Value>
+<Value number="1127">1888</Value>
+<Value number="1128">1891</Value>
+<Value number="1129">1894</Value>
+<Value number="1130">1897</Value>
+<Value number="1131">1900</Value>
+<Value number="1132">1904</Value>
+<Value number="1133">1907</Value>
+<Value number="1134">1910</Value>
+<Value number="1135">1913</Value>
+<Value number="1136">1916</Value>
+<Value number="1137">1919</Value>
+<Value number="1138">1922</Value>
+<Value number="1139">1925</Value>
+<Value number="1140">1929</Value>
+<Value number="1141">1932</Value>
+<Value number="1142">1935</Value>
+<Value number="1143">1938</Value>
+<Value number="1144">1941</Value>
+<Value number="1145">1944</Value>
+<Value number="1146">1947</Value>
+<Value number="1147">1950</Value>
+<Value number="1148">1954</Value>
+<Value number="1149">1957</Value>
+<Value number="1150">1960</Value>
+<Value number="1151">1963</Value>
+<Value number="1152">1966</Value>
+<Value number="1153">1969</Value>
+<Value number="1154">1972</Value>
+<Value number="1155">1976</Value>
+<Value number="1156">1979</Value>
+<Value number="1157">1982</Value>
+<Value number="1158">1985</Value>
+<Value number="1159">1988</Value>
+<Value number="1160">1991</Value>
+<Value number="1161">1994</Value>
+<Value number="1162">1997</Value>
+<Value number="1163">2001</Value>
+<Value number="1164">2004</Value>
+<Value number="1165">2007</Value>
+<Value number="1166">2010</Value>
+<Value number="1167">2013</Value>
+<Value number="1168">2017</Value>
+<Value number="1169">2020</Value>
+<Value number="1170">2023</Value>
+<Value number="1171">2027</Value>
+<Value number="1172">2030</Value>
+<Value number="1173">2034</Value>
+<Value number="1174">2037</Value>
+<Value number="1175">2040</Value>
+<Value number="1176">2044</Value>
+<Value number="1177">2047</Value>
+<Value number="1178">2050</Value>
+<Value number="1179">2054</Value>
+<Value number="1180">2057</Value>
+<Value number="1181">2061</Value>
+<Value number="1182">2064</Value>
+<Value number="1183">2067</Value>
+<Value number="1184">2071</Value>
+<Value number="1185">2074</Value>
+<Value number="1186">2078</Value>
+<Value number="1187">2081</Value>
+<Value number="1188">2084</Value>
+<Value number="1189">2088</Value>
+<Value number="1190">2091</Value>
+<Value number="1191">2094</Value>
+<Value number="1192">2098</Value>
+<Value number="1193">2101</Value>
+<Value number="1194">2105</Value>
+<Value number="1195">2108</Value>
+<Value number="1196">2111</Value>
+<Value number="1197">2115</Value>
+<Value number="1198">2118</Value>
+<Value number="1199">2121</Value>
+<Value number="1200">2125</Value>
+<Value number="1201">2128</Value>
+<Value number="1202">2132</Value>
+<Value number="1203">2135</Value>
+<Value number="1204">2138</Value>
+<Value number="1205">2142</Value>
+<Value number="1206">2145</Value>
+<Value number="1207">2149</Value>
+<Value number="1208">2152</Value>
+<Value number="1209">2155</Value>
+<Value number="1210">2159</Value>
+<Value number="1211">2162</Value>
+<Value number="1212">2165</Value>
+<Value number="1213">2169</Value>
+<Value number="1214">2172</Value>
+<Value number="1215">2176</Value>
+<Value number="1216">2179</Value>
+<Value number="1217">2182</Value>
+<Value number="1218">2186</Value>
+<Value number="1219">2189</Value>
+<Value number="1220">2193</Value>
+<Value number="1221">2196</Value>
+<Value number="1222">2199</Value>
+<Value number="1223">2203</Value>
+<Value number="1224">2206</Value>
+<Value number="1225">2209</Value>
+<Value number="1226">2213</Value>
+<Value number="1227">2216</Value>
+<Value number="1228">2220</Value>
+<Value number="1229">2223</Value>
+<Value number="1230">2226</Value>
+<Value number="1231">2230</Value>
+<Value number="1232">2233</Value>
+<Value number="1233">2237</Value>
+<Value number="1234">2240</Value>
+<Value number="1235">2243</Value>
+<Value number="1236">2247</Value>
+<Value number="1237">2250</Value>
+<Value number="1238">2253</Value>
+<Value number="1239">2257</Value>
+<Value number="1240">2260</Value>
+<Value number="1241">2264</Value>
+<Value number="1242">2267</Value>
+<Value number="1243">2270</Value>
+<Value number="1244">2274</Value>
+<Value number="1245">2277</Value>
+<Value number="1246">2280</Value>
+<Value number="1247">2284</Value>
+<Value number="1248">2287</Value>
+<Value number="1249">2291</Value>
+<Value number="1250">2294</Value>
+<Value number="1251">2297</Value>
+<Value number="1252">2301</Value>
+<Value number="1253">2304</Value>
+<Value number="1254">2308</Value>
+<Value number="1255">2311</Value>
+<Value number="1256">2314</Value>
+<Value number="1257">2318</Value>
+<Value number="1258">2321</Value>
+<Value number="1259">2324</Value>
+<Value number="1260">2328</Value>
+<Value number="1261">2331</Value>
+<Value number="1262">2335</Value>
+<Value number="1263">2338</Value>
+<Value number="1264">2341</Value>
+<Value number="1265">2345</Value>
+<Value number="1266">2348</Value>
+<Value number="1267">2351</Value>
+<Value number="1268">2355</Value>
+<Value number="1269">2358</Value>
+<Value number="1270">2362</Value>
+<Value number="1271">2365</Value>
+<Value number="1272">2368</Value>
+<Value number="1273">2372</Value>
+<Value number="1274">2375</Value>
+<Value number="1275">2379</Value>
+<Value number="1276">2383</Value>
+<Value number="1277">2386</Value>
+<Value number="1278">2390</Value>
+<Value number="1279">2394</Value>
+<Value number="1280">2397</Value>
+<Value number="1281">2401</Value>
+<Value number="1282">2404</Value>
+<Value number="1283">2408</Value>
+<Value number="1284">2412</Value>
+<Value number="1285">2415</Value>
+<Value number="1286">2419</Value>
+<Value number="1287">2422</Value>
+<Value number="1288">2426</Value>
+<Value number="1289">2430</Value>
+<Value number="1290">2433</Value>
+<Value number="1291">2437</Value>
+<Value number="1292">2440</Value>
+<Value number="1293">2444</Value>
+<Value number="1294">2448</Value>
+<Value number="1295">2451</Value>
+<Value number="1296">2455</Value>
+<Value number="1297">2458</Value>
+<Value number="1298">2462</Value>
+<Value number="1299">2466</Value>
+<Value number="1300">2469</Value>
+<Value number="1301">2473</Value>
+<Value number="1302">2477</Value>
+<Value number="1303">2480</Value>
+<Value number="1304">2484</Value>
+<Value number="1305">2487</Value>
+<Value number="1306">2491</Value>
+<Value number="1307">2495</Value>
+<Value number="1308">2498</Value>
+<Value number="1309">2502</Value>
+<Value number="1310">2505</Value>
+<Value number="1311">2509</Value>
+<Value number="1312">2513</Value>
+<Value number="1313">2516</Value>
+<Value number="1314">2520</Value>
+<Value number="1315">2523</Value>
+<Value number="1316">2527</Value>
+<Value number="1317">2531</Value>
+<Value number="1318">2534</Value>
+<Value number="1319">2538</Value>
+<Value number="1320">2541</Value>
+<Value number="1321">2545</Value>
+<Value number="1322">2549</Value>
+<Value number="1323">2552</Value>
+<Value number="1324">2556</Value>
+<Value number="1325">2560</Value>
+<Value number="1326">2563</Value>
+<Value number="1327">2567</Value>
+<Value number="1328">2571</Value>
+<Value number="1329">2574</Value>
+<Value number="1330">2578</Value>
+<Value number="1331">2582</Value>
+<Value number="1332">2586</Value>
+<Value number="1333">2589</Value>
+<Value number="1334">2593</Value>
+<Value number="1335">2597</Value>
+<Value number="1336">2600</Value>
+<Value number="1337">2604</Value>
+<Value number="1338">2608</Value>
+<Value number="1339">2612</Value>
+<Value number="1340">2615</Value>
+<Value number="1341">2619</Value>
+<Value number="1342">2623</Value>
+<Value number="1343">2626</Value>
+<Value number="1344">2630</Value>
+<Value number="1345">2634</Value>
+<Value number="1346">2638</Value>
+<Value number="1347">2641</Value>
+<Value number="1348">2645</Value>
+<Value number="1349">2649</Value>
+<Value number="1350">2653</Value>
+<Value number="1351">2656</Value>
+<Value number="1352">2660</Value>
+<Value number="1353">2664</Value>
+<Value number="1354">2667</Value>
+<Value number="1355">2671</Value>
+<Value number="1356">2675</Value>
+<Value number="1357">2679</Value>
+<Value number="1358">2682</Value>
+<Value number="1359">2686</Value>
+<Value number="1360">2690</Value>
+<Value number="1361">2693</Value>
+<Value number="1362">2697</Value>
+<Value number="1363">2701</Value>
+<Value number="1364">2705</Value>
+<Value number="1365">2708</Value>
+<Value number="1366">2712</Value>
+<Value number="1367">2716</Value>
+<Value number="1368">2719</Value>
+<Value number="1369">2723</Value>
+<Value number="1370">2727</Value>
+<Value number="1371">2731</Value>
+<Value number="1372">2734</Value>
+<Value number="1373">2738</Value>
+<Value number="1374">2742</Value>
+<Value number="1375">2746</Value>
+<Value number="1376">2749</Value>
+<Value number="1377">2753</Value>
+<Value number="1378">2757</Value>
+<Value number="1379">2761</Value>
+<Value number="1380">2765</Value>
+<Value number="1381">2769</Value>
+<Value number="1382">2773</Value>
+<Value number="1383">2778</Value>
+<Value number="1384">2782</Value>
+<Value number="1385">2786</Value>
+<Value number="1386">2790</Value>
+<Value number="1387">2794</Value>
+<Value number="1388">2799</Value>
+<Value number="1389">2803</Value>
+<Value number="1390">2807</Value>
+<Value number="1391">2811</Value>
+<Value number="1392">2815</Value>
+<Value number="1393">2820</Value>
+<Value number="1394">2824</Value>
+<Value number="1395">2828</Value>
+<Value number="1396">2832</Value>
+<Value number="1397">2836</Value>
+<Value number="1398">2841</Value>
+<Value number="1399">2845</Value>
+<Value number="1400">2849</Value>
+<Value number="1401">2853</Value>
+<Value number="1402">2857</Value>
+<Value number="1403">2862</Value>
+<Value number="1404">2866</Value>
+<Value number="1405">2870</Value>
+<Value number="1406">2874</Value>
+<Value number="1407">2878</Value>
+<Value number="1408">2883</Value>
+<Value number="1409">2887</Value>
+<Value number="1410">2891</Value>
+<Value number="1411">2895</Value>
+<Value number="1412">2899</Value>
+<Value number="1413">2904</Value>
+<Value number="1414">2908</Value>
+<Value number="1415">2912</Value>
+<Value number="1416">2916</Value>
+<Value number="1417">2920</Value>
+<Value number="1418">2925</Value>
+<Value number="1419">2929</Value>
+<Value number="1420">2933</Value>
+<Value number="1421">2937</Value>
+<Value number="1422">2941</Value>
+<Value number="1423">2946</Value>
+<Value number="1424">2950</Value>
+<Value number="1425">2954</Value>
+<Value number="1426">2958</Value>
+<Value number="1427">2962</Value>
+<Value number="1428">2967</Value>
+<Value number="1429">2971</Value>
+<Value number="1430">2975</Value>
+<Value number="1431">2979</Value>
+<Value number="1432">2983</Value>
+<Value number="1433">2988</Value>
+<Value number="1434">2992</Value>
+<Value number="1435">2996</Value>
+<Value number="1436">3000</Value>
+<Value number="1437">3004</Value>
+<Value number="1438">3009</Value>
+<Value number="1439">3013</Value>
+<Value number="1440">3017</Value>
+<Value number="1441">3021</Value>
+<Value number="1442">3025</Value>
+<Value number="1443">3030</Value>
+<Value number="1444">3034</Value>
+<Value number="1445">3038</Value>
+<Value number="1446">3042</Value>
+<Value number="1447">3046</Value>
+<Value number="1448">3051</Value>
+<Value number="1449">3055</Value>
+<Value number="1450">3059</Value>
+<Value number="1451">3063</Value>
+<Value number="1452">3067</Value>
+<Value number="1453">3072</Value>
+<Value number="1454">3076</Value>
+<Value number="1455">3080</Value>
+<Value number="1456">3084</Value>
+<Value number="1457">3088</Value>
+<Value number="1458">3093</Value>
+<Value number="1459">3097</Value>
+<Value number="1460">3101</Value>
+<Value number="1461">3105</Value>
+<Value number="1462">3109</Value>
+<Value number="1463">3114</Value>
+<Value number="1464">3118</Value>
+<Value number="1465">3122</Value>
+<Value number="1466">3126</Value>
+<Value number="1467">3130</Value>
+<Value number="1468">3135</Value>
+<Value number="1469">3139</Value>
+<Value number="1470">3143</Value>
+<Value number="1471">3147</Value>
+<Value number="1472">3151</Value>
+<Value number="1473">3156</Value>
+<Value number="1474">3160</Value>
+<Value number="1475">3164</Value>
+<Value number="1476">3168</Value>
+<Value number="1477">3172</Value>
+<Value number="1478">3177</Value>
+<Value number="1479">3181</Value>
+<Value number="1480">3185</Value>
+<Value number="1481">3189</Value>
+<Value number="1482">3193</Value>
+<Value number="1483">3198</Value>
+<Value number="1484">3202</Value>
+<Value number="1485">3206</Value>
+<Value number="1486">3211</Value>
+<Value number="1487">3215</Value>
+<Value number="1488">3220</Value>
+<Value number="1489">3224</Value>
+<Value number="1490">3229</Value>
+<Value number="1491">3233</Value>
+<Value number="1492">3238</Value>
+<Value number="1493">3242</Value>
+<Value number="1494">3247</Value>
+<Value number="1495">3251</Value>
+<Value number="1496">3255</Value>
+<Value number="1497">3260</Value>
+<Value number="1498">3264</Value>
+<Value number="1499">3269</Value>
+<Value number="1500">3273</Value>
+<Value number="1501">3278</Value>
+<Value number="1502">3282</Value>
+<Value number="1503">3287</Value>
+<Value number="1504">3291</Value>
+<Value number="1505">3296</Value>
+<Value number="1506">3300</Value>
+<Value number="1507">3305</Value>
+<Value number="1508">3309</Value>
+<Value number="1509">3314</Value>
+<Value number="1510">3318</Value>
+<Value number="1511">3323</Value>
+<Value number="1512">3327</Value>
+<Value number="1513">3332</Value>
+<Value number="1514">3336</Value>
+<Value number="1515">3341</Value>
+<Value number="1516">3345</Value>
+<Value number="1517">3350</Value>
+<Value number="1518">3354</Value>
+<Value number="1519">3359</Value>
+<Value number="1520">3363</Value>
+<Value number="1521">3368</Value>
+<Value number="1522">3372</Value>
+<Value number="1523">3376</Value>
+<Value number="1524">3381</Value>
+<Value number="1525">3385</Value>
+<Value number="1526">3390</Value>
+<Value number="1527">3394</Value>
+<Value number="1528">3399</Value>
+<Value number="1529">3403</Value>
+<Value number="1530">3408</Value>
+<Value number="1531">3412</Value>
+<Value number="1532">3417</Value>
+<Value number="1533">3421</Value>
+<Value number="1534">3426</Value>
+<Value number="1535">3430</Value>
+<Value number="1536">3435</Value>
+<Value number="1537">3439</Value>
+<Value number="1538">3444</Value>
+<Value number="1539">3448</Value>
+<Value number="1540">3453</Value>
+<Value number="1541">3457</Value>
+<Value number="1542">3462</Value>
+<Value number="1543">3466</Value>
+<Value number="1544">3470</Value>
+<Value number="1545">3475</Value>
+<Value number="1546">3479</Value>
+<Value number="1547">3484</Value>
+<Value number="1548">3488</Value>
+<Value number="1549">3493</Value>
+<Value number="1550">3497</Value>
+<Value number="1551">3502</Value>
+<Value number="1552">3506</Value>
+<Value number="1553">3510</Value>
+<Value number="1554">3515</Value>
+<Value number="1555">3519</Value>
+<Value number="1556">3524</Value>
+<Value number="1557">3528</Value>
+<Value number="1558">3533</Value>
+<Value number="1559">3537</Value>
+<Value number="1560">3542</Value>
+<Value number="1561">3546</Value>
+<Value number="1562">3550</Value>
+<Value number="1563">3555</Value>
+<Value number="1564">3559</Value>
+<Value number="1565">3564</Value>
+<Value number="1566">3568</Value>
+<Value number="1567">3573</Value>
+<Value number="1568">3577</Value>
+<Value number="1569">3582</Value>
+<Value number="1570">3586</Value>
+<Value number="1571">3591</Value>
+<Value number="1572">3595</Value>
+<Value number="1573">3599</Value>
+<Value number="1574">3604</Value>
+<Value number="1575">3608</Value>
+<Value number="1576">3613</Value>
+<Value number="1577">3617</Value>
+<Value number="1578">3622</Value>
+<Value number="1579">3626</Value>
+<Value number="1580">3631</Value>
+<Value number="1581">3635</Value>
+<Value number="1582">3640</Value>
+<Value number="1583">3644</Value>
+<Value number="1584">3648</Value>
+<Value number="1585">3653</Value>
+<Value number="1586">3657</Value>
+<Value number="1587">3662</Value>
+<Value number="1588">3666</Value>
+<Value number="1589">3671</Value>
+<Value number="1590">3675</Value>
+<Value number="1591">3679</Value>
+<Value number="1592">3684</Value>
+<Value number="1593">3688</Value>
+<Value number="1594">3692</Value>
+<Value number="1595">3696</Value>
+<Value number="1596">3700</Value>
+<Value number="1597">3705</Value>
+<Value number="1598">3709</Value>
+<Value number="1599">3713</Value>
+<Value number="1600">3717</Value>
+<Value number="1601">3721</Value>
+<Value number="1602">3726</Value>
+<Value number="1603">3730</Value>
+<Value number="1604">3734</Value>
+<Value number="1605">3738</Value>
+<Value number="1606">3742</Value>
+<Value number="1607">3747</Value>
+<Value number="1608">3751</Value>
+<Value number="1609">3755</Value>
+<Value number="1610">3759</Value>
+<Value number="1611">3763</Value>
+<Value number="1612">3768</Value>
+<Value number="1613">3772</Value>
+<Value number="1614">3776</Value>
+<Value number="1615">3780</Value>
+<Value number="1616">3784</Value>
+<Value number="1617">3789</Value>
+<Value number="1618">3793</Value>
+<Value number="1619">3797</Value>
+<Value number="1620">3801</Value>
+<Value number="1621">3805</Value>
+<Value number="1622">3810</Value>
+<Value number="1623">3814</Value>
+<Value number="1624">3818</Value>
+<Value number="1625">3822</Value>
+<Value number="1626">3826</Value>
+<Value number="1627">3831</Value>
+<Value number="1628">3835</Value>
+<Value number="1629">3839</Value>
+<Value number="1630">3843</Value>
+<Value number="1631">3847</Value>
+<Value number="1632">3852</Value>
+<Value number="1633">3856</Value>
+<Value number="1634">3860</Value>
+<Value number="1635">3864</Value>
+<Value number="1636">3868</Value>
+<Value number="1637">3873</Value>
+<Value number="1638">3877</Value>
+<Value number="1639">3881</Value>
+<Value number="1640">3885</Value>
+<Value number="1641">3889</Value>
+<Value number="1642">3894</Value>
+<Value number="1643">3898</Value>
+<Value number="1644">3902</Value>
+<Value number="1645">3905</Value>
+<Value number="1646">3909</Value>
+<Value number="1647">3913</Value>
+<Value number="1648">3916</Value>
+<Value number="1649">3920</Value>
+<Value number="1650">3924</Value>
+<Value number="1651">3928</Value>
+<Value number="1652">3931</Value>
+<Value number="1653">3935</Value>
+<Value number="1654">3939</Value>
+<Value number="1655">3942</Value>
+<Value number="1656">3946</Value>
+<Value number="1657">3950</Value>
+<Value number="1658">3954</Value>
+<Value number="1659">3957</Value>
+<Value number="1660">3961</Value>
+<Value number="1661">3965</Value>
+<Value number="1662">3969</Value>
+<Value number="1663">3972</Value>
+<Value number="1664">3976</Value>
+<Value number="1665">3980</Value>
+<Value number="1666">3983</Value>
+<Value number="1667">3987</Value>
+<Value number="1668">3991</Value>
+<Value number="1669">3995</Value>
+<Value number="1670">3998</Value>
+<Value number="1671">4002</Value>
+<Value number="1672">4006</Value>
+<Value number="1673">4009</Value>
+<Value number="1674">4013</Value>
+<Value number="1675">4017</Value>
+<Value number="1676">4021</Value>
+<Value number="1677">4024</Value>
+<Value number="1678">4028</Value>
+<Value number="1679">4032</Value>
+<Value number="1680">4036</Value>
+<Value number="1681">4039</Value>
+<Value number="1682">4043</Value>
+<Value number="1683">4047</Value>
+<Value number="1684">4050</Value>
+<Value number="1685">4054</Value>
+<Value number="1686">4058</Value>
+<Value number="1687">4062</Value>
+<Value number="1688">4065</Value>
+<Value number="1689">4069</Value>
+<Value number="1690">4073</Value>
+<Value number="1691">4076</Value>
+<Value number="1692">4080</Value>
+<Value number="1693">4084</Value>
+<Value number="1694">4088</Value>
+<Value number="1695">4091</Value>
+<Value number="1696">4095</Value>
+</DicomAttribute>
+</Item>
+</DicomAttribute>
+<DicomAttribute keyword="StudyStatusID" tag="0032000A" vr="CS">
+<Value number="1">READ</Value>
+</DicomAttribute>
+<DicomAttribute keyword="StudyPriorityID" tag="0032000C" vr="CS">
+<Value number="1">LOW</Value>
+</DicomAttribute>
+<DicomAttribute keyword="ReasonForStudy" tag="00321030" vr="LO">
+<Value number="1">pain low back , fever</Value>
+</DicomAttribute>
+<DicomAttribute keyword="RequestingPhysician" tag="00321032" vr="PN">
+<PersonName number="1">
+<Alphabetic>
+<FamilyName>J</FamilyName>
+<GivenName>R</GivenName>
+</Alphabetic>
+</PersonName>
+</DicomAttribute>
+<DicomAttribute keyword="RequestingService" tag="00321033" vr="LO">
+<Value number="1">-</Value>
+</DicomAttribute>
+<DicomAttribute tag="00330002" privateCreator="MITRA OBJECT ATTRIBUTES 1.0" vr="OB">
+<InlineBinary>RElTQ0lUSVM=</InlineBinary>
+</DicomAttribute>
+<DicomAttribute tag="00330004" privateCreator="MITRA OBJECT ATTRIBUTES 1.0" vr="OB">
+<InlineBinary>UlggTFda</InlineBinary>
+</DicomAttribute>
+<DicomAttribute tag="00330006" privateCreator="MITRA OBJECT ATTRIBUTES 1.0" vr="OB">
+<InlineBinary>Sl5SIA==</InlineBinary>
+</DicomAttribute>
+<DicomAttribute tag="00330008" privateCreator="MITRA OBJECT ATTRIBUTES 1.0" vr="OB">
+<InlineBinary>Sl5SIA==</InlineBinary>
+</DicomAttribute>
+<DicomAttribute tag="0033000A" privateCreator="MITRA OBJECT ATTRIBUTES 1.0" vr="OB">
+<InlineBinary>UkFESU9MT0dZIA==</InlineBinary>
+</DicomAttribute>
+<DicomAttribute keyword="CurrentPatientLocation" tag="00380300" vr="LO">
+<Value number="1">-</Value>
+</DicomAttribute>
+<DicomAttribute keyword="PatientState" tag="00380500" vr="LO">
+<Value number="1">M</Value>
+</DicomAttribute>
+<DicomAttribute keyword="RequestAttributesSequence" tag="00400275" vr="SQ">
+<Item number="1">
+<DicomAttribute keyword="RequestingService" tag="00321033" vr="LO">
+<Value number="1">-</Value>
+</DicomAttribute>
+</Item>
+</DicomAttribute>
+<DicomAttribute keyword="RequestedProcedureID" tag="00401001" vr="SH">
+<Value number="1">42366</Value>
+</DicomAttribute>
+</NativeDicomModel>
